@@ -1,9 +1,34 @@
-19:55:12.873 Running build in Washington, D.C., USA (East) – iad1
-19:55:12.873 Build machine configuration: 2 cores, 8 GB
-19:55:12.988 Cloning github.com/captainfacebeard/Perpetual-Consistency (Branch: main, Commit: 2d19ba5)
-19:55:12.989 Previous build caches not available.
-19:55:13.172 Cloning completed: 184.000ms
-19:55:13.510 Running "vercel build"
-19:55:13.877 Vercel CLI 48.6.7
-19:55:14.444 sh: line 1: react-scripts: command not found
-19:55:14.448 Error: Command "react-scripts build" exited with 127
+{
+"name": "pcf-learning-hub",
+"version": "0.1.0",
+"private": true,
+"dependencies": {
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-scripts": "5.0.1"
+},
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject"
+},
+"eslintConfig": {
+"extends": [
+"react-app",
+"react-app/jest"
+]
+},
+"browserslist": {
+"production": [
+">0.2%",
+"not dead",
+"not op_mini all"
+],
+"development": [
+"last 1 chrome version",
+"last 1 firefox version",
+"last 1 safari version"
+]
+}
+}
