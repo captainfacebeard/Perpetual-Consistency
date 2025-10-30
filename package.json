@@ -1,0 +1,9 @@
+19:55:12.873 Running build in Washington, D.C., USA (East) – iad1
+19:55:12.873 Build machine configuration: 2 cores, 8 GB
+19:55:12.988 Cloning github.com/captainfacebeard/Perpetual-Consistency (Branch: main, Commit: 2d19ba5)
+19:55:12.989 Previous build caches not available.
+19:55:13.172 Cloning completed: 184.000ms
+19:55:13.510 Running "vercel build"
+19:55:13.877 Vercel CLI 48.6.7
+19:55:14.444 sh: line 1: react-scripts: command not found
+19:55:14.448 Error: Command "react-scripts build" exited with 127
